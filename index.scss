@@ -1,0 +1,91 @@
+// bootstrap custome color variabel
+
+// IC-Variabel __Color
+$warnaUtama: #143f6b;
+$warnaKedua: #feb139;
+$warnaVariasi: #fff;
+$warnaHoverUtama: #70a3d6;
+$warnaHoverKedua: #143f6b;
+
+// IC-CustomeClass
+
+section {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.me-btn {
+  border-radius: 10px;
+  padding: 0.6rem 3rem;
+  background-color: $warnaUtama;
+  color: $warnaVariasi;
+
+  &:hover {
+    background-color: $warnaHoverUtama;
+    color: $warnaHoverKedua;
+    font-weight: 800;
+  }
+  &:focus {
+    background-color: $warnaUtama;
+    color: $warnaVariasi;
+  }
+}
+
+.bacMe {
+  background-color: $warnaUtama;
+  opacity: 0.8;
+}
+
+// Navigasi
+.me-bgNav {
+  background-color: $warnaUtama;
+}
+.me-zIndex {
+  z-index: 9999;
+}
+
+// Hero Section
+
+// feature
+#feature {
+  margin-top: 5rem;
+}
+
+// harga
+#harga {
+  .container {
+    .pricing-header {
+      .me-pa {
+        padding: 0 17rem;
+        @media screen and (max-width: 880px) {
+          padding: 0 0;
+        }
+      }
+    }
+  }
+}
+
+// footer
+.me-footer {
+  background-color: $warnaUtama;
+  display: flex;
+  padding: 2rem 2rem !important;
+  @media screen and (max-width: 880px) {
+    display: flex;
+    flex-direction: column;
+  }
+  .me-icon {
+    gap: 0.7rem;
+    svg {
+      color: white;
+    }
+  }
+  .me-textfoot {
+    display: flex;
+    color: #fff;
+    span {
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+  }
+}

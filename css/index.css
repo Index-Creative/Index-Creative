@@ -1,0 +1,72 @@
+section {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.me-btn {
+  border-radius: 10px;
+  padding: 0.6rem 3rem;
+  background-color: #143f6b;
+  color: #fff;
+}
+.me-btn:hover {
+  background-color: #70a3d6;
+  color: #143f6b;
+  font-weight: 800;
+}
+.me-btn:focus {
+  background-color: #143f6b;
+  color: #fff;
+}
+
+.bacMe {
+  background-color: #143f6b;
+  opacity: 0.8;
+}
+
+.me-bgNav {
+  background-color: #143f6b;
+}
+
+.me-zIndex {
+  z-index: 9999;
+}
+
+#feature {
+  margin-top: 5rem;
+}
+
+#harga .container .pricing-header .me-pa {
+  padding: 0 17rem;
+}
+@media screen and (max-width: 880px) {
+  #harga .container .pricing-header .me-pa {
+    padding: 0 0;
+  }
+}
+
+.me-footer {
+  background-color: #143f6b;
+  display: flex;
+  padding: 2rem 2rem !important;
+}
+@media screen and (max-width: 880px) {
+  .me-footer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.me-footer .me-icon {
+  gap: 0.7rem;
+}
+.me-footer .me-icon svg {
+  color: white;
+}
+.me-footer .me-textfoot {
+  display: flex;
+  color: #fff;
+}
+.me-footer .me-textfoot span {
+  text-transform: uppercase;
+  font-weight: bold;
+}/*# sourceMappingURL=index.css.map */
